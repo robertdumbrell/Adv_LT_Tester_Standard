@@ -1,0 +1,47 @@
+
+
+[default]
+model = Altermatt2005
+
+[Altermatt2005]
+model = Roosbroeck_with_screening
+blow_model = cubic_loglog_parm
+b_model = Roosbroeck_with_screening_B
+blow_vals = Trupke2003
+# blow = 4.733e-15
+bmax = 1.
+rmax = 0.2
+smax = 1.5e18
+wmax = 4e18
+rmin = 0.0
+smin = 1e7
+wmin = 1e9
+b2 = 0.54
+r1 = 320.
+s1 = 550.
+w1 =  365.
+b4 = 1.25
+r2 =   2.5
+s2 =  3.
+w2 = 3.54
+notes: An extension of Trupke2003 model, to account for injection dependent effects.
+	This can be though of as conceptually similar how the effective intrinsic carrier density
+	compares to the carrier density. There was a misprint in the paper corrected in Altermatt2011.
+	Here Blow is the radiative recombination constant for the low injection case.
+
+[PC1D]
+model = Roosbroeck
+B = 9.5e-15
+
+[Trupke2003]
+blow_model = cubic_loglog_parm
+blow_vals = Trupke2003
+model = Roosbroeck
+temp_limit: 300
+a:-2.28765176
+b: 17.94655444
+c: -47.53455728
+d: 28.07323491
+doi: 10.1063/1.1610231
+note: Spectral photoluminescence measurements that account for how B varies with temperature.
+	This is a parameterisation (cubic fit) is to Trupke's data presented in Table I.

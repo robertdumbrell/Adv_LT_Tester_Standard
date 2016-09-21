@@ -1,0 +1,30 @@
+
+
+[default]
+model: Green_1990
+
+[Green_1990]
+model: Green_1990
+mt: 0.1905
+ml: 0.9163
+iEg_author: Green1990
+meth_v0: 0.3676
+meth_v1: 0
+meth_v2: 1.98738e-5
+meth_v3: -2.588144e-7
+meth_v4: 1.415372e-9
+meth_v5: -3.919169e-12
+meth_v6: 5.410849e-15
+meth_v7: -2.959797e-18
+doi: 10.1063/1.345414
+notes: Determines the thermal velocity from the effective mass. It uses
+      Eqns 8-12 from 10.1063/1.345414 and also a 7 order poly fit to the
+      valance band thermal mass from Table 4 in 10.1088/0022-3719/14/21/011.
+
+[Bullis_1996]
+model: constants
+vth_e = 1.1e7
+vth_h = 1.1e7
+doi: 10.1149/1.1836650
+notes: An estimate of the thermal velocity at 300 k,
+       no motivation or justification given.

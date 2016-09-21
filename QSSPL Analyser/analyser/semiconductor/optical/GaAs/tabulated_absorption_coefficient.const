@@ -1,0 +1,6 @@
+[default]
+model: PC1D
+
+[PC1D]
+model: GaAs_PC1D 
+temp: 300

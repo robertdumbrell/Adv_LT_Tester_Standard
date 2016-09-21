@@ -1,0 +1,11 @@
+MJ system
+List of vaiables:
+Threshold_mA:	0.0
+Averaging:	1
+Intensity_v:	0.5
+Waveform:	Sin
+Offset_Before_ms:	1.0
+Peroid_s:	0.1
+Offset_After_ms:	10.0
+Measurement_Binning:	1
+Channel:	High (2A/V)
