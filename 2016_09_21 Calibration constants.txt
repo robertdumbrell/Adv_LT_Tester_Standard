@@ -1,0 +1,9 @@
+Coil		
+A	0.0006
+B	0.0627
+
+810 nm LED with 850 and 900 nm SP filter and both lids on
+Fs	1.32e16	@ 1e4 gain
+
+Sinton Flash when using the Sinton Ref Cell
+Fs	2.61e19
